@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>有趣的小遊戲</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-box">
+            <button id="startButton">點我開始遊戲</button>
+            <p id="message"></p>
+            <div id="quiz" class="hidden">
+                <p>1 + 1 = ?</p>
+                <input type="text" id="answer" placeholder="請輸入答案">
+                <button id="submitButton">確定</button>
+            </div>
+        </div>
+    </div>
+    <div id="overlay" class="hidden">
+        <p id="overlayMessage"></p>
+    </div>
+    <div id="emoji" class="hidden">😆</div> <!-- 添加表情符号 -->
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
